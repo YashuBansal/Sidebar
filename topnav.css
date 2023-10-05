@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-}
 .top-bar{
-    background-color: hsla(0, 0%, 0%, 0.8);
+    /* background-color: hsla(0, 0%, 0%, 0.8); */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0.6), rgba(0,0,0,0));
     height: 8vh;
     display: flex ;
     align-items: center;
@@ -18,5 +16,10 @@ a{
     margin-left: 2rem;
     font-weight: 500;
     font-family: sans-serif;
+    text-decoration: none;
     color: rgb(104,194,208);
+}
+a:hover{
+    color: white;
+    transition: 0.3s;
 }

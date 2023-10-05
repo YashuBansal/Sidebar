@@ -41,6 +41,15 @@
     background-color: rgb(22,42,44);
     transition: all 0.5s;
 }
+.label a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(104,194,208);
+}
+a:hover{
+    color: white;
+    transition: all 0.3s;
+}
 .nav-link{
     display: block;
 }
