@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(104,194,208);
+}
+.top-bar{
+    background-color: hsla(0, 0%, 0%, 0.8);
+    height: 8vh;
+    display: flex ;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10%;
+}
+.nav-space a{
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
