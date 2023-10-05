@@ -9,9 +9,6 @@
     .label a{
         font-size: 0.8rem;
     }
-    .body{
-        width: 100%;
-    }
 }
 @media screen and (max-width:769px){
     .sidenav{
